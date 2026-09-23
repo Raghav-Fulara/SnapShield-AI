@@ -1,0 +1,18 @@
+{
+  "model_name": "SnapShield_NER_HTP",
+  "qnn_sdk_version": "2.24.0.240507",
+  "target_silicon": "Snapdragon X Elite (X1E-84-100)",
+  "hardware_accelerator": "Qualcomm Hexagon\u2122 Tensor Processor (HTP v73)",
+  "peak_tops": 45.0,
+  "quantization": "INT8 Symmetric QDQ",
+  "vtcm_allocation_mb": 8.0,
+  "binary_file": "snapshield_ner_htp.bin",
+  "binary_size_bytes": 36621,
+  "checksum_sha256": "5d952bf811f1dc333d2628d10d4fc35d80694a0cf355971608737885b68dc631",
+  "htp_execution_mode": "BURST",
+  "compatible_hp_devices": [
+    "HP OmniBook Ultra 14",
+    "HP OmniBook X 14",
+    "HP EliteBook Ultra G1"
+  ]
+}
