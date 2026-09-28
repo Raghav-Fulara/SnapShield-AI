@@ -109,10 +109,4 @@
 * **Live Empirical Benchmark Suite:** `benchmarks/run_live_benchmark.py` records real P50, P90, P99 percentiles.
 * **Self-Contained Dashboard:** Zero external CDN dependencies, fully offline-ready and private.
 
----
 
-### Slide 12: Why SnapShield AI Secures First Place
-* **Criterion 1: Technical Implementation (TOP TIE-BREAKER):** Real ONNX QNN Execution Provider, 8MB VTCM memory allocation, QDQ INT8 quantization, and verified on-device benchmarks on physical Snapdragon X Elite hardware.
-* **Criterion 2: Application Use Case & Innovation:** Solves the GenAI privacy leak crisis; multimodal edge concurrency (Vision + Speech + Text + Arduino) that only Snapdragon NPU can run.
-* **Criterion 3: Deployment & Accessibility:** Native Windows Copilot+ tray daemon, HP OEM pre-install specification, cross-platform dev fallback.
-* **Criterion 4: Presentation & Deliverables:** 12-slide executive deck, complete system architecture diagrams, live interactive web command center with automated verification tour, and 100% green test suite.
