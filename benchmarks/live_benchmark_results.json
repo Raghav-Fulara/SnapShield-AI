@@ -1,0 +1,35 @@
+{
+  "timestamp": 1789911210.584796,
+  "hardware_environment": {
+    "hardware": "Host CPU (x86_64)",
+    "acceleration_mode": "Universal Fallback (Dev Mode)",
+    "estimated_power_w": 28.5,
+    "target_platform": "Linux-6.1.158+-x86_64-with-glibc2.41",
+    "is_simulated": true,
+    "note": "Optimized to run on Snapdragon Hexagon NPU via QNNExecutionProvider in production."
+  },
+  "pipelines": {
+    "ner_text": {
+      "iterations": 200,
+      "mean_latency_ms": 0.02,
+      "median_p50_ms": 0.02,
+      "p90_latency_ms": 0.02,
+      "p99_latency_ms": 0.04,
+      "min_latency_ms": 0.02,
+      "throughput_tokens_per_sec": 1667412.2,
+      "snapdragon_npu_target_ms": 4.82,
+      "npu_speedup_vs_host": 0.0
+    },
+    "vision_screen": {
+      "iterations": 200,
+      "mean_latency_ms": 0.86,
+      "median_p50_ms": 0.86,
+      "p90_latency_ms": 0.89,
+      "p99_latency_ms": 0.93,
+      "min_latency_ms": 0.81,
+      "throughput_fps": 1159.5,
+      "snapdragon_npu_target_ms": 11.4,
+      "npu_speedup_vs_host": 0.08
+    }
+  }
+}

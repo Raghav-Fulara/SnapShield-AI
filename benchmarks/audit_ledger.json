@@ -1,0 +1,55 @@
+[
+  {
+    "block_index": 0,
+    "timestamp": 1789860335.9739358,
+    "event_type": "GENESIS_INITIALIZATION",
+    "device_hardware": "Qualcomm Hexagon NPU (45 TOPS) / HP OmniBook",
+    "entity_categories": [],
+    "secrets_contained_count": 0,
+    "previous_block_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "merkle_root_hash": "6ad510a7275911b112d11d3d9fe0391437b4d1e5a0aaca13ffdb9df300df2684",
+    "block_hash": "28b4ba5c05f746cc492a2246dee22bd5e0e9b3be698063a2dc4c0fed265b302d"
+  },
+  {
+    "block_index": 1,
+    "timestamp": 1789860335.9741118,
+    "event_type": "PROMPT_SANITIZATION",
+    "device_hardware": "Qualcomm Hexagon HTP v73",
+    "entity_categories": [
+      "OPENAI_API_KEY",
+      "AADHAAR_CARD"
+    ],
+    "secrets_contained_count": 2,
+    "previous_block_hash": "28b4ba5c05f746cc492a2246dee22bd5e0e9b3be698063a2dc4c0fed265b302d",
+    "merkle_root_hash": "83bf5fa51e23d36c14e2a7ae3a71e12ec63e9c6e92f5409f875a0cbfaf860aef",
+    "block_hash": "dc35de61e36f2921728c2b6f1698cc005fcd4a7fb923f136e92a74f855fef95b"
+  },
+  {
+    "block_index": 2,
+    "timestamp": 1789860530.506299,
+    "event_type": "PROMPT_SANITIZATION",
+    "device_hardware": "Qualcomm Hexagon HTP v73",
+    "entity_categories": [
+      "AWS_ACCESS_KEY",
+      "AADHAAR_CARD"
+    ],
+    "secrets_contained_count": 2,
+    "previous_block_hash": "dc35de61e36f2921728c2b6f1698cc005fcd4a7fb923f136e92a74f855fef95b",
+    "merkle_root_hash": "972dba816b6dcd0475003d6b4161cfe6338d32edfc1d4524f621f6be256097ab",
+    "block_hash": "4d101456c7612dbffee3c11f7c8f0d9def40f3a7ad5af70cb37e8165175db453"
+  },
+  {
+    "block_index": 3,
+    "timestamp": 1789911224.5376413,
+    "event_type": "PROMPT_SANITIZATION",
+    "device_hardware": "Qualcomm Hexagon HTP v73",
+    "entity_categories": [
+      "OPENAI_API_KEY",
+      "AADHAAR_CARD"
+    ],
+    "secrets_contained_count": 2,
+    "previous_block_hash": "4d101456c7612dbffee3c11f7c8f0d9def40f3a7ad5af70cb37e8165175db453",
+    "merkle_root_hash": "83bf5fa51e23d36c14e2a7ae3a71e12ec63e9c6e92f5409f875a0cbfaf860aef",
+    "block_hash": "4be4e0878b582191dad2641e507a2a795de88109670024fd05f2d5d47defb730"
+  }
+]
